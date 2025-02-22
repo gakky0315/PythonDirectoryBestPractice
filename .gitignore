@@ -18,7 +18,7 @@ env/
 # 環境変数や秘密情報
 .env
 .env.local
-config.json  # 設定ファイル（必要なら手動管理）
+#config.json  # 設定ファイル（必要なら手動管理）
 
 # ログファイル
 logs/
