@@ -7,7 +7,7 @@ from src.data.stress_test_data import StressTestData
 # CSVファイルを読み込む場合
 file_path = "data/portfolio.csv"
 
-data_loader = DataLoader(file_path)
+data_loader    = DataLoader(file_path)
 portfolio_data = data_loader.load_csv()
 
 print("data:")
@@ -20,7 +20,8 @@ portfolio_data_json = json_loader.load_json()
 print("JSON:")
 print(portfolio_data_json.head())
 
-
+x=1+2
+y = x + 1
 
 # アロケーション計算
 alloc_calc = AllocationCalculator(portfolio_data)
